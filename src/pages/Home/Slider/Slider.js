@@ -9,12 +9,12 @@ const Slider = () => {
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active slider-img">
-                <img style={{height: '600px'}} src={slider1} className="d-block w-100 img-fluid" alt="..."/>
+                <img style={{maxHeight: '600px'}} src={slider1} className="d-block w-100 img-fluid" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                <img style={{height: '600px'}} src={slider2} className="d-block w-100 img-fluid" alt="..."/>
+                <img style={{maxHeight: '600px'}} src={slider2} className="d-block w-100 img-fluid" alt="..."/>
                 </div>
-                <div style={{height: '600px'}} className="carousel-item">
+                <div style={{maxHeight: '600px'}} className="carousel-item">
                 <img src={slider3} className="d-block w-100 img-fluid" alt="..."/>
                 </div>
             </div>

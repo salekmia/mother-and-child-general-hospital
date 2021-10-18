@@ -19,7 +19,7 @@ const Header = () => {
 
                 <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand text-white">MACGH</Link>
+                    <Link to="/" className="navbar-brand text-white"><h4><b>MACGH</b><small className="fs-6 fw-lighter d-none d-md-block">-Mother and Child Genarel Hospital</small></h4></Link>
                     <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon text-white"><i className="fas fa-bars"></i></span>
                     </button>
