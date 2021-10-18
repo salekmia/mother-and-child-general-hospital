@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import Departments from './pages/Departments/Departments';
 import Details from './pages/Details/Details';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/signup">
               <Signup></Signup>
+            </Route>
+            <Route path="/departments">
+              <Departments></Departments>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
