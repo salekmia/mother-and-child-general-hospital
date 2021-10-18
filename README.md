@@ -18,3 +18,5 @@ This is a hospita website. By this website customer can get online help from exp
 If anyone want to see our service details they have to create a accont. Without login in this website no one can see the seevices details.
 
 To create an account of login to this website i use firebase authentication. Anyone can login with their google account or github account. Without google and github they also create a new account on this website. It's pretty cool! right?
+
+In this project there are three main pages. These are Home, About, Department. Without these page there are also 404 page, service details page.
