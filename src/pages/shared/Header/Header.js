@@ -11,7 +11,7 @@ const Header = () => {
                         <p className="m-0 p-0">Email: <b>bhairabbari330@gmail.com</b></p>
                     </div>
                     <div>
-                        <button className="btn btn-outline-danger text-white px-4 me-2 rounded-pill">Login</button>
+                        <Link to="/login"><button className="btn btn-outline-danger text-white px-4 me-2 rounded-pill">Login</button></Link>
                         <button className="btn btn-danger rounded-pill px-4">Register</button>
                     </div>
                 </div>
