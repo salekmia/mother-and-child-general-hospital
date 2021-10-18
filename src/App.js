@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import About from './pages/About/About/About';
 import Departments from './pages/Departments/Departments';
 import Details from './pages/Details/Details';
 import Home from './pages/Home/Home/Home';
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/departments">
               <Departments></Departments>
+            </Route>
+            <Route path="/about">
+              <About></About>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
