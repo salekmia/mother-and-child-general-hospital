@@ -1,0 +1,49 @@
+.header-bg {
+    background-color: #6047EC;
+    color: #fff;
+}
+
+.social-container {
+    list-style: none;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-container li {
+    margin: 0 5px;
+    padding: 0 5px;
+    transform: scale(.8);
+    transition: all .3s ease;
+}
+
+.social-container li a {
+    color: rgba(255, 255, 255, 0.597);
+    transition: all .3s ease;
+}
+
+.social-container li:hover {
+    transform: scale(1);
+}
+.social-container li:hover a {
+    color: #fff;
+}
+
+.main-nav li {
+    padding: 0 10px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: all .3s ease;
+}
+
+.main-nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.custom-toggler:focus {
+    border: 0;
+    box-shadow: none;
+}
