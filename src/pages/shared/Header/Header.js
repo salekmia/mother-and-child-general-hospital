@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 import './Header.css';
 const Header = () => {
+    const {user, logOut} = useAuth()
+    console.log(user)
     return (
         <div className="header-bg py-3">
             <div className="container">
@@ -11,12 +14,15 @@ const Header = () => {
                         <p className="m-0 p-0">Email: <b>bhairabbari330@gmail.com</b></p>
                     </div>
                     <div>
-                        <Link to="/login"><button className="btn btn-outline-danger text-white px-4 me-2 rounded-pill">Login</button></Link>
-                        <button className="btn btn-danger rounded-pill px-4">Register</button>
+                        {user?.email ? <button onClick={logOut} className="btn btn-danger mx-2 px-4 rounded-pill">Log out</button> :
+                        <Link to="/login"><button className="btn btn-outline-danger text-white px-4 me-2 rounded-pill">Login</button></Link>}
+                        {!user?.email && <Link to="/signup"><button className="btn btn-danger rounded-pill px-4">Register</button></Link>}
+                        <span><b>{user?.displayName}</b></span>
                     </div>
                 </div>
                 <hr className="m-0 p-0" />
 
+                {/* navbar */}
                 <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand text-white"><h4><b>MACGH</b><small className="fs-6 fw-lighter d-none d-md-block">-Mother and Child Genarel Hospital</small></h4></Link>
