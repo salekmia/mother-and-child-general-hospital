@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "name": "Common Cold",
+        "img": "https://i.ibb.co/x1ym7DM/Sick-boy-with-thermometer-laying-in-bed-and-mother-hand-taking-temperature-Mother-checking-temperatu.jpg",
+        "img1": "https://i.ibb.co/vDjVQD1/Boy-using-an-asthma-inhaler-in-the-park.jpg",
+        "img2": "https://i.ibb.co/89kTdcR/Little-indian-girl-making-inhalation-with-nebulizer-at-home-with-lovely-mother-Woman-makes-inhalatio.jpg",
+        "description": "What is seasonal flu? How to avoid getting it? Who is most at risk? How is it treated? All your questions answered in WHO Q&A on flu season. Learn more. Recommendation from WHO. Official WHO website. Advice for the public. Official info on COVID-19."
+    },
+    {
+        "id": "2",
+        "name": "Vrinary tract infection",
+        "img": "https://i.ibb.co/jHGZTGs/pic2.jpg",
+        "img1": "https://i.ibb.co/qYc3S9b/Brightly-lit-image-of-a-young-Thai-mom-with-her-little-baby-boy-They-re-spending-time-together-at-ho.jpg",
+        "img2": "https://i.ibb.co/B6jyLhz/an-asian-chinese-mother-cooking-preparing-food-at-kitchen-counter-with-her-daughter.jpg",
+        "description": "UTIs are common, and some women may experience them during pregnancy. Women who have symptoms of a UTI during pregnancy should see their doctor immediately. Without treatment, UTIs can cause serious complications for a pregnant woman and the developing fetus. Prompt intervention can help to prevent these complications."
+    },
+    {
+        "id": "3",
+        "name": "Bronchitis and bronchiolitis",
+        "img": "https://i.ibb.co/t2gG6Kf/African-male-pediatrician-hold-stethoscope-exam-child-boy-patient-visit-doctor-with-mother-black-pae.jpg",
+        "img1": "https://i.ibb.co/7pHmB57/Small-kid-receiving-asthma-treatment-and-using-inhaler-at-home.jpg",
+        "img2": "https://i.ibb.co/KwvtfKt/Close-up-of-a-pediatrician-having-a-check-up-on-his-patient.jpg",
+        "description": "Bronchitis is an inflammation of the large breathing tubes (bronchi) in the lungs. Acute bronchitis means that the symptoms often develop quickly and don't last long. In children, the most common cause of acute bronchitis is a virus. A cough, fever, runny nose, and body aches are common symptoms."
+    },
+    {
+        "id": "4",
+        "name": "High blood pressure",
+        "img": "https://i.ibb.co/j51b3dN/pic4.jpg",
+        "img1": "https://i.ibb.co/Yh5F3Nh/Family-playing-with-new-baby-member-in-bed.jpg",
+        "img2": "https://i.ibb.co/wyyh2zJ/Happy-african-american-family-in-aprons-making-funny-grimaces-with-pepper-looking-at-camera-Portrait.jpg",
+        "description": "Preeclampsia happens when a woman who previously had normal blood pressure suddenly develops high blood pressure* and protein in her urine or other problems after 20 weeks of pregnancy. Women who have chronic hypertension can also get preeclampsia. Preeclampsia happens in about 1 in 25 pregnancies in the United States"
+    },
+    {
+        "id": "5",
+        "name": "Eczma",
+        "img": "https://i.ibb.co/GFNNSx8/Midsection-of-an-unrecognizable-little-girl-is-scratching-her-arm.jpg",
+        "img1": "https://i.ibb.co/0DT5pk4/A-little-African-American-girl-with-asthma-is-at-a-doctor-s-appointment-She-is-sitting-on-her-father.jpg",
+        "img2": "https://i.ibb.co/BV90mfv/African-American-pediatrician-using-nebulizer-during-inhaling-therapy-of-a-small-boy-due-to-coronavi.jpg",
+        "description": "hildren with eczema (atopic dermatitis) tend to get patches of dry, itchy skin. The itch can be so uncomfortable it interferes with sleep, making your child feel miserable. Plus, scratching can cause the rashes to get infected"
+    },
+    {
+        "id": "6",
+        "name": "Gestational Diabetes",
+        "img": "https://i.ibb.co/rvrnkTJ/pic6.jpg",
+        "img1": "https://i.ibb.co/sHz3KV1/Pretty-woman-holding-a-newborn-baby-in-her-arms.jpg",
+        "img2": "https://i.ibb.co/DfbCwq1/Day-in-a-life-of-cancer-patient-portrait-of-woman-at-home-and-office-after-chemotherapy-due-to-lymph.jpg",
+        "description": "Gestational diabetes usually shows up in the middle of pregnancy. Doctors most often test for it between 24 and 28 weeks of pregnancy. Often gestational diabetes can be controlled through eating healthy foods and regular exercise. Sometimes a woman with gestational diabetes must also take insulin."
+    },
+    {
+        "id": "7",
+        "name": "Asthma",
+        "img": "https://i.ibb.co/FBp8SSb/African-Girl-Having-Asthma-Attack-Worried-Mom-Giving-Her-Inhaler-For-Relief-Copy-space.jpg",
+        "img1": "https://i.ibb.co/S7Vd9Tq/A-female-doctor-is-showing-a-preschool-age-girl-how-to-use-an-asthma-inhaler-She-is-talking-her-thro.jpg",
+        "img2": "https://i.ibb.co/88f1HgY/Young-Girl-of-African-American-Ethnicity-is-Using-Inhaler-Due-to-the-Problems-with-Asthma-in-the-Pub.jpg",
+        "description": "Common childhood asthma signs and symptoms include: Frequent coughing that worsens when your child has a viral infection, occurs while your child is asleep or is triggered by exercise or cold air. A whistling or wheezing sound when breathing out. Shortness of breath."
+    },
+    {
+        "id": "8",
+        "name": "Amaemia",
+        "img": "https://i.ibb.co/CMNbZgv/Asian-woman-has-stomachache-while-she-meeting-with-her-friend-in-cafe.jpg",
+        "img1": "https://i.ibb.co/7vtTY0F/Front-view-of-3-year-old-girl-interacting-with-26-year-old-mother-in-kitchen-as-she-slices-tomatoes.jpg",
+        "img2": "https://i.ibb.co/qrfmwvN/pic888.jpg",
+        "description": "Anaemia is a deficiency in the number or quality of red blood cells in your body. Red blood cells carry oxygen around your body using a particular protein called haemoglobin. Anaemia means that either the level of red blood cells or the level of haemoglobin is lower than normal."
+    }
+]

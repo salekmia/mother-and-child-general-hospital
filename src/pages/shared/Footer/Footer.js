@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="footer-bg">
             <div className="container">
-                <div className="row text-start">
+                <div className="row text-start pt-5">
                     <div className="col-lg-4 col-md-8 p-3">
                         <h4 className="">MACGH</h4>
                         <p>Here we have skilled doctors for pregnant women. I do Caesarean section for less money. The female patient is treated by a female doctor.</p>
@@ -21,21 +21,23 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-8 p-3">
                         <h4>ADDRESS</h4>
-                        <p><i class="fas fa-home"></i> Bhairab bazar, Bharab, Kishoregonj</p>
-                        <p><i class="far fa-envelope"></i> bharabbari330@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> +88 01859650251</p>
-                        <p><i class="fas fa-phone"></i> +88 01759611778</p>
+                        <p><i className="fas fa-home"></i> Bhairab bazar, Bharab, Kishoregonj</p>
+                        <p><i className="far fa-envelope"></i> bharabbari330@gmail.com</p>
+                        <p><i className="fas fa-phone"></i> +88 01859650251</p>
+                        <p><i className="fas fa-phone"></i> +88 01759611778</p>
                     </div>
                     <div className="col-lg-2 col-md-4 p-3">
                         <h4>FOLLOW US</h4>
                         <ul className="footer-social d-flex flex-md-column p-0 m-0">
-                            <li><a target="_blank" href="https://www.facebook.com/salekalways" rel="noreferrer"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a target="_blank" href="https://www.twitter.com/salekalways" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/salekalways" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/salekalways/" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/salekalways" rel="noreferrer"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a target="_blank" href="https://www.twitter.com/salekalways" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/salekalways" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/salekalways/" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
+                <hr className="m-0 p-0" />
+                <p className="text-center p-3 m-0"><small>Copyright &copy; MACGH 2021</small></p>
             </div>
         </div>
     );

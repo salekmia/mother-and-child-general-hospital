@@ -1,15 +1,24 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Footer from './pages/shared/Footer/Footer';
-import Header from './pages/shared/Header/Header';
+import Home from './pages/Home/Home/Home';
+import NotFound from './pages/NotFound/NotFound/NotFound';
 
 function App() {
   return (
     <div className="App">
       
       <BrowserRouter>
-      <Header></Header>
-      <Footer></Footer>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
