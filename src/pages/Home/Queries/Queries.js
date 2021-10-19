@@ -7,9 +7,9 @@ const Queries = () => {
                 <h1>Write Your <span style={{color: '#6047EC'}}>Queries</span></h1>
                 <p>If you have any question fill up the form</p>
                 <div>
-                    <div className="d-flex">
-                        <input className="form-control my-3 me-2"  type="text" placeholder="Your name" />
-                        <input className="form-control my-3 ms-2" type="email" placeholder="Your email" />
+                    <div className="d-md-flex">
+                        <input className="form-control my-3 me-md-2"  type="text" placeholder="Your name" />
+                        <input className="form-control my-3 ms-md-2" type="email" placeholder="Your email" />
                     </div>
                     <div>
                         <input className="form-control my-3" type="text" placeholder="Subject" />
