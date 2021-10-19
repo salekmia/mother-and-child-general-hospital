@@ -4,7 +4,7 @@ import useAuth from '../../../hooks/useAuth';
 import './Header.css';
 const Header = () => {
     const {user, logOut} = useAuth()
-    console.log(user)
+    
     return (
         <div className="header-bg py-3">
             <div className="container">
