@@ -41,7 +41,7 @@ const Header = () => {
                         <Link className="text-white" to="/departments">Departments</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="text-white" to="/children">Healthy children</Link>
+                        <Link className="text-white" to="/workouts">Workouts</Link>
                         </li>
                     </ul>
                     <form className="d-flex">

@@ -9,6 +9,7 @@ import Login from './pages/Login/Login';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 import NotFound from './pages/NotFound/NotFound/NotFound';
 import Signup from './pages/Sginup/Signup';
+import Workouts from './pages/Workouts/Workouts';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/workouts">
+              <Workouts></Workouts>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
