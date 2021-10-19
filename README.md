@@ -19,4 +19,4 @@ If anyone want to see our service details they have to create a accont. Without 
 
 To create an account of login to this website i use firebase authentication. Anyone can login with their google account or github account. Without google and github they also create a new account on this website. It's pretty cool! right?
 
-In this project there are three main pages. These are Home, About, Department. Without these page there are also 404 page, service details page.
+In this project there are three main pages. These are Home, About, Department. Without these page there are also 404 page, service details page, Workout page.

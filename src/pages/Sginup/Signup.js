@@ -79,9 +79,9 @@ const Signup = () => {
                                         <div className="or-line w-100"></div>
                                     </div>
                                     <div className="d-grid gap-2">
-                                        <button onClick={googleLoginHandle} className="btn btn-sm btn-danger"><i class="fab fa-google"></i> Sign up with google</button>
+                                        <button onClick={googleLoginHandle} className="btn btn-sm btn-danger"><i className="fab fa-google"></i> Sign up with google</button>
 
-                                        <button onClick={githubLoginHandle} className="btn btn-sm btn-danger"><i class="fab fa-github"></i> Login with github</button>
+                                        <button onClick={githubLoginHandle} className="btn btn-sm btn-danger"><i className="fab fa-github"></i> Login with github</button>
                                     </div>
                                     <p className="m-4">Already have an account? <Link to="/login">Login</Link></p>
                                     

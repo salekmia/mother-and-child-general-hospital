@@ -83,9 +83,9 @@ const Login = () => {
                                     </div>
                                     
                                     <div className="d-grid gap-2">
-                                        <button onClick={googleLoginHandle} className="btn btn-sm btn-danger"><i class="fab fa-google"></i> Login with google</button>
+                                        <button onClick={googleLoginHandle} className="btn btn-sm btn-danger"><i className="fab fa-google"></i> Login with google</button>
 
-                                        <button onClick={githubLoginHandle} className="btn btn-sm btn-danger"><i class="fab fa-github"></i> Login with github</button>
+                                        <button onClick={githubLoginHandle} className="btn btn-sm btn-danger"><i className="fab fa-github"></i> Login with github</button>
                                         
                                     </div>
                                     <p className="m-4">Don't have an account? <Link to="/signup">Sign up</Link></p>

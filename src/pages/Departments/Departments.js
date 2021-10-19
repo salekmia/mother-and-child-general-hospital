@@ -22,7 +22,7 @@ const Departments = () => {
                             <h4>Head of department</h4>
                             <h5>Hepatologist: <b>Dr. John Gonzales</b></h5>
                             <h6><b>Event hours:</b></h6>
-                            <table class="table">
+                            <table className="table">
                             <tbody>
                                 <tr>
                                 <td>Twe</td>
@@ -53,7 +53,7 @@ const Departments = () => {
                             <h4><b>Head of department</b></h4>
                             <h5>Cardiologist: <b>Dr. Luke Slater</b></h5>
                             <h6>Event hours:</h6>
-                            <table class="table">
+                            <table className="table">
                             <tbody>
                                 <tr>
                                 <td>Mon</td>
@@ -95,7 +95,7 @@ const Departments = () => {
                             <h4>Head of department</h4>
                             <h5>Orthopaedic: <b>Dr. John Banks</b></h5>
                             <h6><b>Event hours:</b></h6>
-                            <table class="table">
+                            <table className="table">
                             <tbody>
                                 <tr>
                                 <td>Mon</td>

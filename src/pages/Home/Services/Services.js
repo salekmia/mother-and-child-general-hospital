@@ -10,7 +10,7 @@ const Services = () => {
         .then(res => res.json())
         .then(data => setServices(data))
     }, [])
-    console.log(services)
+    
     return (
         <div className="container my-5">
             <div className="services-heading ps-2 mb-4">
