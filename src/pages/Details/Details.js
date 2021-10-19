@@ -13,9 +13,9 @@ const Details = () => {
         .then(data => setService(data))
     }, [])
     const newData = service.filter(data => data.id === id)
-    // const {name, description, img, img1, img2} = newData[0]
-    console.log(newData[0])
+    
 
+    
 
     return (
         <div>
