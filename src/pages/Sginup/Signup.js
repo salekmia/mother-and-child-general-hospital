@@ -7,8 +7,9 @@ import Footer from '../shared/Footer/Footer';
 import Header from '../shared/Header/Header';
 import './Signup.css';
 const Signup = () => {
-    const {signInUsignGoogle, signUpUsingPassword, signInUsignGithub} = useAuth()
+    const {signInUsignGoogle, signUpUsingPassword, signInUsignGithub, setUserName, setUser, user} = useAuth()
 
+    const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
@@ -41,10 +42,18 @@ const Signup = () => {
         signUpUsingPassword(email, password)
         .then(result => {
             history.push(redirect_uri)
+            setUserName(name)
+            .then(()=> {
+                setUser({...user, displayName:name})
+            })
         })
         .catch(error =>{
             setError(error.message)
         }) 
+    }
+
+    const nameChange = (e) => {
+        setName(e.target.value)
     }
 
     const emailChange = (e) => {
@@ -63,8 +72,8 @@ const Signup = () => {
                             <div>
                                 <h3 className="text-center">Signup here</h3>
                                 <div className="border p-4">
-                                    {/* <input className="input-field" type="text" name="name" id="name" placeholder="Enter name" />
-                                    <br /> */}
+                                    <input onBlur={nameChange} className="input-field" type="text" name="name" id="name" placeholder="Enter name" />
+                                    <br />
                                     <input  onBlur={emailChange} className="input-field" type="email" name="email" id="email" placeholder="Enter email" />
                                     <br />
                                     <input onBlur={passwordChange} className="input-field" type="password" name="password" id="password" placeholder="Enter password" />

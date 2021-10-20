@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { useState } from "react";
 import initializeAuthentication from "../Firebase/firebase-init";
 
@@ -40,6 +40,10 @@ const useFirebase = () => {
         
     }
 
+    const setUserName = (name) => {
+        return updateProfile(auth.currentUser, {displayName: name})
+    }
+
     // logout
     const logOut = () => {
         signOut(auth)
@@ -54,7 +58,9 @@ const useFirebase = () => {
         signInUsignGithub,
         signUpUsingPassword,
         signInUsingPassword,
-        logOut
+        logOut, 
+        setUserName,
+        setUser
     }
 }
 
