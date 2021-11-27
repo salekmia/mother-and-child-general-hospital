@@ -11,6 +11,16 @@ My live project link is here [mother and child genarel hospital](https://assignm
 * Bootstrap
 * Firebase
 
+### Features:
+
+* This is a good looking and responsive website. On this website there are many
+services for patients.
+* Users can register with an email-password or login with google or github.
+* After successful login, users can take the visit. After doing everything, the user can
+log out if he wants.
+* By visiting the contact us page, users can know all information about the services.
+There is a departments page and users can browse all departments.
+
 ### Description:
 
 This is a hospita website. By this website customer can get online help from expert doctors. There are many expert doctors in this hospita. Customers can get serve from their home at any time.
